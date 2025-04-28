@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DJ Jo</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header>
+    <img src="Images\Logo_DJ_Jo_Rond_2.PNG" alt="Logo DJ Jo" class="logo">
+    <nav class="desktop-menu">
+      <ul>
+        <li><a href="#hero">Accueil</a></li>
+		<li><a href="biographie.html">Biographie</a></li>
+        <li><a href="galerie.html">Photos & Vidéos</a></li>
+		 <li><a href="calendrier.html">Événements</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="hero" class="hero">
+      <h1></h1>
+      <p></p>
+	  <p></p>
+	  <p></p>
+    </section>
+	
+	<section id="presentation" class="section">
+		<h2>DJ Jo</h2>
+		<p>DJ Jo anime vos soirées avec passion et professionnalisme. Mariages, bal de finissants, événements privés – une ambiance sur mesure pour chaque occasion !</p>
+	</section>
+
+
+    <section id="temoignages" class="section">
+      <h2>Vos commentaires</h2>
+      <div class="testimonial">"DJ Jo a mis le feu à notre mariage !" - Marie & Alex</div>
+      <div class="testimonial">"Soirée mémorable ! Merci DJ Jo." - Kevin</div>
+    </section>
+	
+	<section id="commentaires" class="section">
+  <h2>Donnez votre avis</h2>
+  <button onclick="document.getElementById('form-commentaire').style.display='block'">
+    Commentez
+  </button>
+
+  <form id="form-commentaire" action="https://formsubmit.co/ton@email.com" method="POST" style="display:none;" class="reservation-form">
+    <input type="text" name="nom" placeholder="Votre nom" required>
+    <textarea name="commentaire" placeholder="Votre témoignage" required></textarea>
+    <input type="hidden" name="_subject" value="Nouveau témoignage pour DJ Jo">
+    <input type="hidden" name="_template" value="table">
+    <input type="hidden" name="_captcha" value="false">
+    <button type="submit">Envoyer</button>
+  </form>
+</section>
+
+
+    <section id="reservation" class="section">
+      <h2>Faites votre demande !</h2>
+      <form action="https://formsubmit.co/djjo1pro@gmail.com" method="POST" class="reservation-form">
+        <input type="text" name="nom" placeholder="Votre nom" required>
+		<input type="text" name="nom" placeholder="Votre adresse courriel" required>
+        <input type="text" name="evenement" placeholder="Type d'événement" required>
+        <input type="date" name="date" required>
+        <input type="text" name="lieu" placeholder="Lieu de l'événement" required>
+        <button type="submit">Envoyer</button>
+		<input type="hidden" name="_subject" value="Nouvelle demande de réservation">
+		<input type="hidden" name="_captcha" value="false">
+		<input type="hidden" name="_template" value="table">
+      </form>
+    </section>
+  </main>
+
+  <footer>
+	<p> 📸 Instagram : <a href="https://instagram.com/dj_jo_pro" target="_blank">@dj_jo_pro</a></p>
+    <p>© 2025 DJ Jo. Tous droits réservés.</p>
+  </footer>
+  
+  <!-- Menu Mobile -->
+  <div class="mobile-menu-container">
+    <button class="menu-toggle">☰</button>
+    <ul class="mobile-menu">
+      <li><a href="index.html">Accueil</a></li>
+        <li><a href="biographie.html">Biographie</a></li>
+        <li><a href="galerie.html">Photos & Vidéos</a></li>
+         <li><a href="calendrier.html">Événements</a></li>
+    </ul>
+  </div>
+  
+</body>
+</html>
