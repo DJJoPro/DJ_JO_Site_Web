@@ -158,7 +158,7 @@ footer {
 /* Fond alternatif pour les petits écrans (mobile) */
 @media only screen and (max-width: 768px), (max-device-width: 768px) {
   .hero {
-    background-image: url('Background_Logo.PNG');
+    background-image: url('./Background_Logo.PNG');
     background-size: cover;
     background-position: center;
   }
