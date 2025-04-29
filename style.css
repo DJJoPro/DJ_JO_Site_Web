@@ -190,7 +190,7 @@ table,th, td {
 /* Fond alternatif pour les petits écrans (mobile) */
 @media only screen and (max-width: 768px), (max-device-width: 768px) {
   .hero {
-    background-image: url('./Background_Logo.png');
+    background-image: url('Images/Background_Tablette.PNG');
     background-size: cover;
     background-position: center;
   }
