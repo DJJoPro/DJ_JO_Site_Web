@@ -106,7 +106,7 @@ footer {
   display: none;
 }
 
-@media (max-width: 768px) {
+@media only screen and (max-width: 768px), (max-device-width: 768px) {
   .desktop-menu {
     display: none;
   }
@@ -156,7 +156,7 @@ footer {
 }
 
 /* Fond alternatif pour les petits écrans (mobile) */
-@media screen and (max-width: 768px) {
+@media only screen and (max-width: 768px), (max-device-width: 768px) {
   .hero {
     background-image: url('Background_Logo.PNG');
     background-size: cover;
